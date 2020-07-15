@@ -1,0 +1,16 @@
+<view wx:if="{{list.length==0?true:false}}" class="header">暂无点赞的商品哦~</view>
+<view>
+	<view wx:for="{{list}}">
+		<navigator class="fui-goods-item" hoverClass="none" openType="navigate" url="/groups/goods/index?id={{item.target.id}}">
+			<view class="image" style="background-image:url({{item.target.thumb}})"></view>
+			<view class="detail goods_list_detail">
+				<view class="name">{{item.target.title}}</view>
+				<view class="price">
+					<view class="text original">价格：￥{{item.target.price}}</view>
+				</view>
+				<!-- <view class="currentPrice">当前价:￥{{item.target.now_price}}</view> -->
+			</view>
+			<view class="fui-goods-remark icox icox-qianjin-copy"></view>
+		</navigator>
+	</view>
+</view>

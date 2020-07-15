@@ -1,0 +1,14 @@
+<view>
+    <view class="header">
+    <input type="text" bindinput="newcommment" placeholder="留下您的评论"></input>
+    <button bindtap="tijiao">发布</button>
+    </view>
+    <view class="content" wx:if="{{com}}">
+      <text class="nickname">{{nick}}:</text>
+      <text class="comment">{{com}}</text>
+    </view>
+    <view class="content" wx:for="{{comments}}">
+      <text class="nickname">{{item.member.nickname}}:</text>
+      <text class="comment">{{item.comment}}</text>
+    </view>
+</view>

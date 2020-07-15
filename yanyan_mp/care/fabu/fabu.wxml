@@ -1,0 +1,11 @@
+<view class="page-body">
+  <view class="page-section">
+    <view class="page-section-title" style="background:#fff;color:#333">请发布您的评价</view>
+    <view class="textarea-wrp">
+      <textarea bindblur="bindTextAreaBlur"  data-fabuid="{{1}}"/>
+    </view>
+  </view>
+  <button class="fabu">
+    发布
+  </button>
+</view>

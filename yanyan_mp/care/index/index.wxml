@@ -1,0 +1,10 @@
+<view wx:if="{{list.length==0?true:false}}" class="header">暂无关注的店铺哦~</view>
+<view class="qiye" wx:for="{{list}}">
+		<view class="chuanwrap">
+			<image src="{{item.target.logo}}"></image>
+			<text class="name">
+			{{item.target.merchname}}
+			</text>
+			<text class="in"  bindtap="chuan" data-merchid="{{item.target.id}}">进入店铺</text>
+		</view>
+	</view>

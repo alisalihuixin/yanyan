@@ -1,0 +1,35 @@
+/* care//fabu/fabu.wxss */
+textarea {
+  width: 700rpx;
+  padding: 25rpx 0;
+}
+
+.textarea-wrp {
+  padding: 0 25rpx;
+  background-color: #fff;
+  height: 300rpx;
+}
+.fabu{
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 10rpx;
+  background-color: teal;
+  color: #fff;
+}
+.page-section{
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+
+.page-section:last-child{
+  margin-bottom: 0;
+}
+
+.page-section-title{
+  font-size: 28rpx;
+  color: #999999;
+  /* margin-bottom: 10rpx; */
+  border-bottom: 1px solid #eee;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}

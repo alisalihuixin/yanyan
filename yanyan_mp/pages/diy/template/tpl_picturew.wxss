@@ -1,0 +1,4 @@
+.navigator{
+  width: 320rpx;
+  height: 320rpx;
+}

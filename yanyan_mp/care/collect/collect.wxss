@@ -1,0 +1,9 @@
+/* care//collect/collect.wxss */
+.header{
+  width: 100%;
+  text-align: center;
+  line-height:100rpx;
+  font-size: 30rpx;
+  height: 100rpx;
+  background-color: #fff;
+}
